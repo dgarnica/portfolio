@@ -12,9 +12,9 @@ $(window).scroll(function(){
 
 $(window).scroll(function() {
 
-  $(".move-up").css("transform", "translateY(-" + (0 + $(window).scrollTop() * 0.20) + "%)" );
+  $(".move-up").css("transform", "translateY(-" + (0 + $(window).scrollTop() * 0.14) + "%)" );
 
-  $(".move-down").css("transform", "translateY(" + (0 + $(window).scrollTop() * 0.12) + "%)" );
+  $(".move-down").css("transform", "translateY(" + (0 + $(window).scrollTop() * 0.20) + "%)" );
 });
 
 /*/// Links ///*/
