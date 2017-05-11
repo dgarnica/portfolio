@@ -59,15 +59,26 @@ body {
   font-family: 'Poiret One', cursive;
 }
 
+@media only screen and (max-width: 500px) {
+    #top-section>h1 {
+        font-weight: lighter;
+    }
+
+    #top-section>h2 {
+      font-size: 0.75em;
+      font-weight: bold;
+      font-style: italic;
+    }
+}
+
 #top-section>h1 {
   font-size: 4em;
-  font-weight: lighter;
+  font-weight: bold;
+  font-style: italic;
 }
 
 #top-section>h2 {
   font-size: 3.5em;
-  font-weight: bold;
-  font-style: italic
 }
 
 /* Center Navigation */
@@ -165,6 +176,7 @@ body {
 
 #contact-section {
   position: relative;
+  font-family: 'Poiret One', cursive;
   width: 50%;
   left: 26%;
   transform: translateX(-26%);
