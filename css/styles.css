@@ -37,8 +37,8 @@
 /*// Main Body Begins //*/
 
 body {
-  min-height: 104em;
-  max-height: 104em;
+  min-height: 120em;
+
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -60,12 +60,12 @@ body {
 }
 
 #top-section>h1 {
-  font-size: 5em;
+  font-size: 4em;
   font-weight: lighter;
 }
 
 #top-section>h2 {
-  font-size: 4em;
+  font-size: 3.5em;
   font-weight: bold;
   font-style: italic
 }
@@ -73,7 +73,7 @@ body {
 /* Center Navigation */
 
 #center-nav {
-  position: sticky;
+  position: relative;
   width: 100%;
 
   background-color: #222;
@@ -105,11 +105,6 @@ body {
 
 #center-nav li:nth-child(2) a {
   margin: 0rem 1.5rem;
-}
-
-
-.social-links a>.fa-2x {
-  font-size: 1.25em;
 }
 
 /* About Section */
@@ -149,12 +144,8 @@ body {
 #hero-carousel {
   left: 50%;
   transform: translateX(-50%);
-  height: 28em;
+  height: 25em;
   top: 1.5em;
-}
-
-.carousel-indicators {
-  bottom: -1.15em;
 }
 
 .img-fluid {
@@ -170,12 +161,27 @@ body {
   margin-top: 5em;
 }
 
+/*// Contact Section //*/
+
+#contact-section {
+  position: relative;
+  width: 50%;
+  left: 26%;
+  transform: translateX(-26%);
+  background-color: rgba(0, 0, 0, 0.75);
+  padding-bottom: 1em;
+}
+
+#contact-section form {
+  position: relative;
+}
+
 /* Footer */
 
 footer {
   position: fixed;
   bottom: 0;
-  height: 5em;
+  height: 6em;
   width: 100%;
   font-weight: 600;
   background-color: black;
@@ -187,4 +193,19 @@ footer>a>span, footer>a>h5 {
   margin-bottom: 0;
   left: 50%;
   transform: translateX(-50%);
+}
+
+/*// Social Links //*/
+
+.social-links {
+  bottom: 2.25em;
+  transform: translateX(-10%);
+}
+
+.social-links a {
+  margin-right: 1em;
+}
+
+.social-links a>.fa-2x {
+  font-size: 1.5em;
 }
