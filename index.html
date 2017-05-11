@@ -1,15 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Dann Garnica</title>
-  <link rel="stylesheet" href="css/font-awesome.min.css" />
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/styles.css" />
-</head>
-<body>
-  
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dann Garnica</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+
+  <!--= Top Section =-->
+
+    <div id="top-section" class="move-up">
+      <h1 class="fade-out white-text center-text">Modern Websites Should Look A Little More...</h1>
+      <h2 class="fade-out white-text center-text">Modern, Right?</h2>
+    </div>
+
+  <!--= Center Navigation =-->
+
+    <div class="row move-up">
+        <ul class="nav montserrat" id="center-nav">
+          <li class="active col-xs-12"><a class="white-text" href="#">idonteven</a></li>
+
+          <!--== Tab Arrows ==-->
+
+          <li class="col-xs-12 col-sm-6 col-sm-offset-3">
+            <a href="#top-section" class="white-text pull-left">
+              <h5 class="center-text">my works</h5>
+              <span class="fa fa-angle-down"></span>
+            </a>
+            <a href="#contact-section" class="white-text pull-right">
+              <h5 class="center-text">about me</h5>
+              <span class="fa fa-angle-down"></span>
+            </a>
+          </li>
+
+          <!--==  Social Media Links ==-->
+
+        </ul>
+    </div>
+
+
+  <!--= Works Section =-->
+
+    <div class="white-text container-fluid move-down" id="works-section">
+      <!--== Carousel ==-->
+
+      		<div id="hero-carousel" class="carousel slide" data-ride="carousel">
+      			<div class="carousel-inner">
+
+      		<!-- Carousel Items -->
+
+      				<div class="item active">
+      					<a href="https://dgarnica.github.io/final-project-mk2/">
+                  <img src="img/modern-maid.jpg" alt="First Slide (ModernMaid)" class="d-block img-fluid" />
+                </a>
+              </div>
+
+      				<div class="item">
+      					<img src="img/restaurant-2.jpg" alt="Second Slide" class="d-block img-fluid" />
+      				</div>
+
+      				<div class="item">
+      					<img src="img/farm-2.jpg" alt="Third Slide" class="d-block img-fluid" />
+      				</div>
+      			</div>
+
+      		<!-- Carousel Controls -->
+
+      				<a href="#hero-carousel" role="button" data-slide="prev" class="left carousel-control">
+      					<span class="fa fa-angle-left fa-2x"></span>
+      					<span class="sr-only">Previous</span>
+      				</a>
+      				<a href="#hero-carousel" role="button" data-slide="next" class="right carousel-control">
+      					<span class="fa fa-angle-right fa-2x" aria-hidden="true"></span>
+      					<span class="sr-only">Next</span>
+      				</a>
+      		</div>
+    </div>
+
+  <!--= About Section =-->
+
+    <div id="about-section" class="fade-in move-up">
+      <div class="row center-text white-text">
+        <div class="col-xs-12">
+          <h2>My Name is Dann</h2>
+        </div>
+
+        <div class="col-xs-12">
+          <h3>I Make Websites</h3>
+        </div>
+        <p class="white-text center-text montserrat">Check out some of my works below!</p>
+        <p class="white-text center-text montserrat">I work my hardest for a sleek design and efficent code.</p>
+      </div>
+    </div>
+
+  <!--= Contact Section =-->
+    <div id="contact-section" class="row white-text move-down">
+      <div class="col-xs-12 center-text">
+        <h3 class="montserrat">Contact Me!</h3>
+        <form>
+          <div class="form-group">
+            <label for="input-name">Name</label>
+            <input type="text" class="form-control" id="input-name" placeholder="Name">
+          </div>
+          <div class="form-group">
+            <label for="input-email">Email</label>
+            <input type="email" class="form-control" id="input-email" placeholder="Email">
+          </div>
+
+          <div class="form-group">
+            <label for="input-message">Message</label>
+            <textarea class="form-control" id="input-message" rows="3"></textarea>
+          </div>
+
+          <div class="checkbox">
+            <label>
+              <input type="checkbox"> I'm not a robot.
+            </label>
+          </div>
+          <button type="submit" class="btn btn-default">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <a href="#">
+        <span class="white-text center-text fa fa-angle-up fa-3x"></span>
+        <h5 class="white-text center-text">back to top</h5>
+      </a>
+      <ul class="row">
+        <li class="social-links col-xs-12">
+          <a href="#" class="white-text pull-right"><span class="fa fa-codepen fa-2x"></span></a>
+          <a href="#" class="white-text pull-right"><span class="fa fa-github fa-2x"></span></a>
+          <a href="#" class="white-text pull-right"><span class="fa fa-linkedin fa-2x"></span></a>
+        </li>
+      </ul>
+    </footer>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+  </body>
 </html>
