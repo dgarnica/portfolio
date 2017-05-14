@@ -2,7 +2,7 @@
 /*// Fade On Scroll //*/
 
 $(window).scroll(function(){
-  $(".fade-out").css("opacity", 1 - $(window).scrollTop() / 60);
+  $(".fade-out").css("opacity", 1 - $(window).scrollTop() / 100);
 
   $(".fade-in").css("opacity", 0 + $(window).scrollTop() / 250);
 });
@@ -18,3 +18,20 @@ $(window).scroll(function() {
 });
 
 /*/// Links ///*/
+
+$(document).ready(function(){
+  $("#about-link").click(function() {
+    $('html, body').animate({
+      scrollTop: '450px'});
+    });
+
+  $("#works-link").click(function() {
+    $('html, body').animate({
+      scrollTop: '800px'});
+    });
+
+  $("#back-to-top").click(function() {
+    $('html, body').animate({
+      scrollTop: '-150em'});
+    });
+  });
