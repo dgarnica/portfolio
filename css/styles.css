@@ -37,7 +37,7 @@
 /*// Main Body Begins //*/
 
 body {
-  min-height: 120em;
+  height: 100em;
 
   margin: 0;
   padding: 0;
@@ -47,6 +47,7 @@ body {
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
+  cursor: default;
 }
 
 /* Top Section */
@@ -180,11 +181,11 @@ body {
   width: 50%;
   left: 26%;
   transform: translateX(-26%);
-  background-color: rgba(0, 0, 0, 0.75);
-  padding-bottom: 1em;
+  background-color: rgba(25, 65, 123, 0.35);
 }
 
 #contact-section form {
+  color: #aaa;
   position: relative;
 }
 
